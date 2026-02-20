@@ -1,12 +1,18 @@
-def calculatrice (elt, operande, elt1):
+def calculatrice ():
+    
+    operation1 = int(input("Entrez un nombre : "))
+    operation2 = str(input("Entrez un opérateur : "))
+    operation3 = int(input("Entrez un nombre : "))
 
-    if operande == "+":
-        print(elt + elt1)
-    elif operande == "-":
-        print(elt - elt1)
-    elif operande == "*":
-        print(elt * elt1)
+    if operation2 == "+" :
+        print(operation1 + operation3)
+    elif operation2 == "-":
+        print(operation1 - operation3)
+    elif operation2 == "*":
+        print(operation1 * operation3)
     else:
-        print(elt / elt1)
+        print(operation1 / operation3)
 
-calculatrice(5, "*", 5)
+calculatrice()
+
+
