@@ -1,5 +1,5 @@
-def addition (elt, operande, elt1):
-    operande = ["+", "-", "*", "/"]
+def calculatrice (elt, operande, elt1):
+
     if operande == "+":
         print(elt + elt1)
     elif operande == "-":
@@ -8,3 +8,5 @@ def addition (elt, operande, elt1):
         print(elt * elt1)
     else:
         print(elt / elt1)
+
+calculatrice(5, "*", 5)
