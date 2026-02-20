@@ -9,7 +9,12 @@ def calculatrice ():
     elif operation2 == "-":
         print(operation1 - operation3)
     elif operation2 == "*":
-        print(operation1 * operation3)
+        i = 0
+        total = 0
+        while i <operation3:
+            total+=operation1
+            i+=1
+        print(total)
     else:
         print(operation1 / operation3)
 
